@@ -1,0 +1,30 @@
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15vw;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 20px;
+    width: 18vw;
+    height: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.box img {
+    width: 77%;
+    height: 77%;
+}
